@@ -14,17 +14,7 @@
 
 		try {
 
-					const URLSearch = window.location.search;
-	console.log( 'URLSearch is', URLSearch );
-	const allURLParams = new URLSearchParams ( URLSearch );
-	const checkBool = allURLParams.get( 'checkBool' );
-	if ( checkBool =='Yes') {
-		console.log ( 'Showing the chat');
-		embeddedservice_bootstrap.settings.displayHelpButton = true;
-	} else {
-		console.log('Hiding the chat');
-		embeddedservice_bootstrap.settings.displayHelpButton = false;
-	}
+					
 
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
  
